@@ -1,7 +1,8 @@
 body{
-font-family: Arial;
+font-family: Arial, sans-serif;
 background:#f4f4f4;
 text-align:center;
+margin:0;
 }
 
 header{
@@ -20,7 +21,19 @@ margin:10px;
 font-size:16px;
 }
 
+button{
+background:#4CAF50;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:#45a049;
+}
+
 #result{
 margin-top:20px;
 font-size:18px;
+font-weight:bold;
 }
